@@ -1,8 +1,8 @@
-## Try to build a multi-containers web application
+## Why we should use docker-compose to build a multi-containers application
 
-Let's consider an example of a typical web application that consists of multiple services such as a web server, a database, and a caching service. We would need to manually manage each container separately, ensuring they have the correct configurations and can communicate with each other. This process can be complex and error-prone.
+Let's consider an *example* of a typical web application that consists of multiple services such as a web server, a database, and a caching service. We would need to manually manage each container separately, ensuring they have the correct configurations and can communicate with each other. This process can be complex and error-prone.
 
-Here's an example of how we might write Dockerfiles for a web application, a MySQL database, and a Redis caching service:
+Here's an example of how we *might* write Dockerfiles for a web application, a MySQL database, and a Redis caching service:
 
 1. Web Application Dockerfile (`Dockerfile.web`):
 	```dockerfile
