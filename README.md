@@ -89,3 +89,6 @@ Docker Compose is used to simplify the process of defining, managing, and runnin
 
 Docker Compose simplifies the management and deployment of multi-container Docker applications, making it a popular choice for developers and DevOps teams.
 
+## Comprehensive example
+
+For a comprehensive of reviews and explanations of how and why to use docker-compose, please visit this site [Getting Started](https://docs.docker.com/get-started/).
